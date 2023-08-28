@@ -134,28 +134,28 @@ if __name__ == "__main__":
             
             
             
-потренироваться если нужно кому
+# потренироваться если нужно кому
             
-phonebook = [
-    {
-        'last_name': 'Dmitriev',
-        'first_name': 'Dmitriy'
-    },
-    {
-        'last_name': 'Maximov',
-        'first_name': 'Maxim'
-    },
-{
-        'last_name': 'Genadiev',
-        'first_name': 'Gennadiy'
-    }
-]
-search_key = 'd'
-for contact in phonebook:
-    if (search_key.lower() in contact['last_name'].lower() or search_key.lower() in contact['first_name'].lower()):
-        print('Такой есть')
-    else:
-        print('Такого нет')
+# phonebook = [
+#     {
+#         'last_name': 'Dmitriev',
+#         'first_name': 'Dmitriy'
+#     },
+#     {
+#         'last_name': 'Maximov',
+#         'first_name': 'Maxim'
+#     },
+# {
+#         'last_name': 'Genadiev',
+#         'first_name': 'Gennadiy'
+#     }
+# ]
+# search_key = 'd'
+# for contact in phonebook:
+#     if (search_key.lower() in contact['last_name'].lower() or search_key.lower() in contact['first_name'].lower()):
+#         print('Такой есть')
+#     else:
+#         print('Такого нет')
             
             
             
@@ -168,5 +168,5 @@ for contact in phonebook:
 
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
